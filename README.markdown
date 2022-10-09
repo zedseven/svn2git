@@ -1,6 +1,10 @@
 svn2git
 =======
 
+**This is a small fork that changes the
+[default branch name from `master` to `main`](https://about.gitlab.com/blog/2021/03/10/new-git-default-branch-name/),
+so it should (hopefully) still work with newer Git versions.**
+
 _svn2git_ is a tiny utility for migrating projects from Subversion to Git
 while keeping the trunk, branches and tags where they should be. It uses
 git-svn to clone an svn repository and does some clean-up to make sure
